@@ -1,0 +1,132 @@
+:root {
+    --colorPattern: rgb(83, 26, 68);
+    --TwocolorPattern: rgb(124, 49, 88);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+html {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://dynamicwallpaper.club/landing-vids/1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container {
+    width: 100%;
+}
+
+#container,
+#allInputs {
+    display: flex;
+    justify-content: center;
+}
+
+#whiteBox {
+    border-radius: 5px;
+    width: 50%;
+    background-color: white;
+    margin: 4% 0;
+    box-shadow: 0 5px 20px 10px rgba(83, 26, 68, 0.709);
+}
+
+h1,
+h2 {
+    color: var(--colorPattern);
+}
+
+#secoes {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(197, 153, 187, 0.39);
+    padding: 20px 0;
+    margin: 0 20px 20px 20px;
+    border-radius: 5px;
+}
+
+ul,
+li {
+    list-style-type: none;
+    padding-bottom: 5px;
+}
+
+h1 {
+    font-size: 30px;
+    padding: 20px;
+}
+
+h2 {
+    padding-bottom: 10px;
+}
+
+
+article {
+    padding: 5px;
+    margin: 0 auto;
+}
+
+label {
+    font-size: 20px;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid rgb(221, 217, 217);
+    border-radius: 5px;
+}
+
+input:hover {
+    border-color: rgb(124, 49, 88);
+}
+
+button {
+    width: 100%;
+    background-color: var(--TwocolorPattern);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(85, 34, 60);
+}
+
+.avisos-error,
+.avisos-true {
+    border-radius: 2px ;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.avisos-error {
+    font-style: italic;
+    background-color: rgba(209, 37, 37, 0.322);
+}
+
+.avisos-true {
+    background-color: rgba(197, 153, 187, 0.39);
+    color: rgb(0, 0, 0);
+}
